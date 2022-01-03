@@ -1,0 +1,201 @@
+.App {
+  font-size: 1.5rem;
+  padding: 16px 50px;
+  color: #4c4c4c;
+}
+.header {
+  display: flex;
+  border-bottom: 4px solid #dfdfdf;
+  padding-bottom: 20px;
+}
+.heading {
+  font-size: 2.2em;
+  columns: #434343;
+}
+
+.addMember {
+  border-radius: 26px;
+  height: fit-content;
+  padding: 6px;
+  background: #4b74ff;
+  align-self: center;
+  margin-left: 20px;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.filters-div {
+  display: flex;
+  padding-top: 5px;
+}
+.filter {
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.select {
+  padding: 6px;
+}
+
+.main-table {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+.main-table > tbody > tr:nth-child(odd) {
+  background-color: #f9fafb;
+}
+tr {
+  height: 50px;
+}
+
+.end-cell {
+  width: 30px;
+}
+.main-table > tbody > tr:nth-child(odd) > .end-cell {
+  background-color: #c6cbd4;
+}
+
+.add-member-model {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* text-align: center; */
+  background: rgba(37, 37, 37, 0.6);
+  /* margin: 200px; */
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+.add-member-div {
+  background: #fff;
+  margin: 0 52px;
+  text-align: left;
+  padding: 15px;
+  font-size: 1.2em;
+  width: 80%;
+}
+.member-form-input-div {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.member-form-input-div > label {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.member-form-input-div > input {
+  padding: 10px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 2px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 5px; /* Add a top margin */
+  margin-bottom: 10px; /* Bottom margin */
+  resize: vertical;
+}
+
+.add-member-action {
+  border-radius: 26px;
+  height: fit-content;
+  padding: 6px 15px;
+  background: #4b74ff;
+  align-self: center;
+  margin-left: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-member-cancel {
+  color: #4b74ff;
+  background: #fff;
+  border: 1px solid #4b74ff;
+}
+.close-add-member {
+  padding: 0;
+  margin: 0;
+  float: right;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+.Login {
+  display: flex;
+  height: 100vh;
+}
+
+.login-input-div{
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.login-input-div > label {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+.login-input-div > input {
+  padding: 10px;
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 2px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 5px; /* Add a top margin */
+  margin-bottom: 10px; /* Bottom margin */
+  resize: vertical;
+}
+
+.login-form-div {
+  padding: 20px;
+    align-self: center;
+    flex: 1;
+}
+
+.login-form-action {
+  border-radius: 26px;
+  height: fit-content;
+  padding: 6px 15px;
+  background: #4b74ff;
+  align-self: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-button {
+  border-radius: 26px;
+  height: fit-content;
+  padding: 6px 15px;
+  background: rgb(224, 52, 52);
+  align-self: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position:absolute;
+  right: 3%;
+}
+
+.filter-head {
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+    font-size: 0.8em;
+}
+.filter-list {
+  display: flex;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    flex-direction: column;
+    padding: 7px;
+    background: #fff;
+    width: 130%;
+}
